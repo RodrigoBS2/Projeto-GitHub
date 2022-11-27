@@ -1,11 +1,13 @@
 Inicializando um repositório:
-   1º) Use o comando "git inint" pois irá inicializar um repositório;
+   Caso você nunca tenha criado um repositório então crie uma pasta no 
+   seu computador, com o botão direito do mouse vá em "Git Bash Here"
+   1º) Use o comando "git init" pois irá inicializar um repositório;
    2º) Comando "git status": verifica se o repositório está ou não atualizado,
 		   	     mostra quais arquivo já foram incluidos no controle
 		   	     de versão e quais ainda não foram, mostra também
 		   	     se o arquivo foi atualizado.
 
-Adicionar arquivos ao controle de versão (GitHub):
+Adicionar arquivos ao controle de versão (GitHub): 
    1º) É necessário preparar o arquivo para ser adicionado ao controle 
        de versão. Use um dos comandos abaixo:
 
@@ -46,4 +48,5 @@ Ciclo de atualização do seu código:
        - git commit -m "Comentário do que foi atualizado"
        - git push
    
-  			
+Como verificar histórico de atualizações do seu código:
+   1º)   			

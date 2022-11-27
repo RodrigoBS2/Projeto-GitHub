@@ -91,9 +91,12 @@ Tópico 6 - Navegar na Branch e criar uma:
 Tópico 7 - Unir códigos:
    Usado quando você tem um código atualizado da branch master na branch de onde você ta e quer unir esse
    código para a branch master.
+   
    1º) Vá para branch master pois ela é a branch principal que irá receber os codigos
        de outras branchs. Use o comando "git checkout master"
    
-   2º) Use o comando : git merge <Nome da branch que vc quer unir o código com a master>
+   2º) Digite "git pull" para trazer todas as atualizações para sua máquina local
+   
+   3º) Use o comando : git merge <Nome da branch que vc quer unir o código com a master>
        Isso irá puxar todas as atualizações da branch escolhida para a master
       		

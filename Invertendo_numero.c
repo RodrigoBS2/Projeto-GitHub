@@ -18,13 +18,13 @@ int main()
          }
          while(z==1)
          {
-             printf("\n\nDeseja fazer um novo calculo?s/n\n");
+             printf("\n\nDeseja fazer um novo calculo?S/N\n");
          scanf("%c",&c);
          fflush(stdin);
          switch(c)
          {
-             case 's':printf("Calculando novamente\n\n");z=0;break;
-             case 'n': printf("ok\n\n\n");w=0;z=0;break;
+             case 'S':printf("Calculando novamente\n\n");z=0;break;
+             case 'N': printf("ok\n\n\n");w=0;z=0;break;
              default: printf("Erro.Digite novamente");break;
 
          }

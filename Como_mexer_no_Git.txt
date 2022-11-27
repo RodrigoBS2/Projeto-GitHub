@@ -1,0 +1,106 @@
+Tópico 1 - Inicializando um repositório:
+   Caso você nunca tenha criado um repositório então crie uma pasta no 
+   seu computador, com o botão direito do mouse vá em "Git Bash Here".
+   Será aberto uma linha de comando do Git para você poder navegar por lá.
+
+   1º) Use o comando "git init" pois irá inicializar um repositório na pasta
+       que você criou;
+   2º) Comando "git status": verifica se o repositório está ou não atualizado,
+		   	     mostra quais arquivo já foram incluidos no controle
+		   	     de versão e quais ainda não foram, mostra também
+		   	     se o arquivo foi atualizado.
+
+Tópico 2 - Adicionar arquivos ao controle de versão (GitHub): 
+   1º) É necessário preparar o arquivo para ser adicionado ao controle 
+       de versão. Jogue os arquivo na pasta por onde você ta navegando 
+       no Git e use na linha de comando um dos comandos abaixo:
+
+       - git add "Nome do arquivo": prepara o arquivo para ser adicionado
+				    ao controle de versão;
+       - git add . : prepara todos os arquivos da pasta para serem adicionados 
+		     ao controle de versão. Usado quando você tem mais de 
+		     um arquivo e quer adicionar todos.
+
+   2º) Crie uma versão (commit) para os arquivos que foram "preparados".
+       Use o seguinte comando:
+
+       - git commit -m "Digite o que foi feito nessa versão, apenas um comentário"
+       
+       O Git irá pedir para você digitar dois comandos para depois poder usar o 
+       comando " git commit -m "comentário" ". Esses comandos são:
+       
+       - git config --global user.email "bote seu email do GitHub"
+       - git config --global user.name "bote seu nome"
+
+
+
+   3º) Enviar a versão criada para o GitHub. Mas antes é necessário você saber
+       para onde enviar, se é em um local criado por você ou por terceiros. Use 
+       o comando:
+
+       - git remote add <nome> <url>
+       
+       Depois use o comando:
+
+       - git push --set-upstream origin master
+		
+Tópico 3 - Ciclo de atualização do seu código:
+  Usado quando já foi criado um repositório no GitHub com os commits. 
+  1º) Você atualizou seu código e por isso precisar atualizar o seu repositório
+       que está no GitHub (na nuvem). Para isso, use os comandos na seguinte ordem:
+
+       - git add .
+       - git commit -m "Comentário do que foi atualizado"
+       - git push
+   
+Tópico 4 - Como verificar histórico de atualizações do seu código:
+   1º) Use o comando "git reflog": mostrará uma lista das atualizações
+       e no topo da lista estará a atualização mais recente.
+
+Tópico 5 - Como navegar entre versões do seu código:
+   Usado caso você precisar voltar a uma versão do seu código por ter cometido 
+   algum erro. Use o comando:
+      
+       - git reset --hard <Id (número em amarelo) da versão deseja que pode ser
+	 encontrada na lista do comando "git reflog">
+   
+   Após isso, a sua pasta será atualizada com os arquivos da versão deseja. Agora
+   basta fazer a modificação de interesse nos arquivos e fazer o procedimento do 
+   tópico 3. 
+	
+Tópico 6 - Navegar na Branch e criar uma:
+   Comandos para navegar nas branchs:
+   - git branch: Mostra quais branchs existem e em qual você está (em verde).
+   - git checkout <Nome da branch>: vai para a branch que você deseja.   
+   
+   Caso você ja tenha mais de uma branch e só precisa atualizar o repositório de alguma:
+   1º) Use os seguintes comando na ordem:
+      - git checkout <Nome da branch>
+      - Tópico 3 
+
+   Criando uma branch:
+   1º) Use os seguintes comandos na ordem:
+      - git branch <Nome da nova branch>: cria uma branch
+	A branch criada receberá todos arquivos da branch de onde vc escreveu o comando "git branch".
+      - git checkout <Nome da branch>
+      - Faça modificações na pasta: adicione um arquivo ou edite um que se 
+	encontra lá;
+      - git add .
+      - git commit -m "comentário"
+      - Como é uma nova branch digite o comando: git push --set-upstream origin <nome da branch criada>
+
+   Obs: git checkout -b <Nome da nova branch> <Nome da branch de referência> = git branch <Nome da nova branch> + git checkout <Nome da branch>
+	
+Tópico 7 - Unir códigos:
+   Usado quando você tem um código atualizado da branch master na branch de onde você ta e quer unir esse
+   código para a branch master.
+   
+   1º) Vá para branch master pois ela é a branch principal que irá receber os codigos
+       de outras branchs. Use o comando "git checkout master"
+   
+   2º) Digite "git pull" para trazer todas as atualizações para sua máquina local
+   
+   3º) Use o comando : git merge <Nome da branch que vc quer unir o código com a master>
+       Isso irá puxar todas as atualizações da branch escolhida para a master
+   
+   4º) git push   		

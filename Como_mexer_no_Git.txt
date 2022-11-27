@@ -102,4 +102,5 @@ Tópico 7 - Unir códigos:
    
    3º) Use o comando : git merge <Nome da branch que vc quer unir o código com a master>
        Isso irá puxar todas as atualizações da branch escolhida para a master
-      		
+   
+   4º) git push   		

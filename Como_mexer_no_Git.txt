@@ -105,4 +105,14 @@ Tópico 7 - Unir códigos:
    
    4º) git push 
 
+Tópico 8 - Puxar do git para uma nova pasta
+   1º) git init
+   2º) git pull <remote> <branch>
+   3º) git checkout -b <Nome da nova branch> <Nome da branch de referência>
+   4º) Modificações/ atulaizações 
+   5º) git add . 
+   6º) git commit -m "Comentários"
+   8º) git push
+
+
 FIM  		

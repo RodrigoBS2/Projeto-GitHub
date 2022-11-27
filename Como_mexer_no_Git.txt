@@ -107,12 +107,13 @@ Tópico 7 - Unir códigos:
 
 Tópico 8 - Puxar do git para uma nova pasta
    1º) git init
-   2º) git pull <remote> <branch>
+   2º) git pull <remote> <branch>	OBS: <remote> : nome do perfil de onde você está puxando as atualizações
    3º) git checkout -b <Nome da nova branch> <Nome da branch de referência>
    4º) Modificações/ atulaizações 
    5º) git add . 
    6º) git commit -m "Comentários"
-   8º) git push
+   7º) git remote add <nome> <url>   OBS: em <nome> bote seu nome/ nome único exclusivo etc
+   8º) git push <nome>
 
 
 FIM  		

@@ -38,4 +38,5 @@ Adicionar arquivos ao controle de versão (GitHub):
 
        - git push --set-upstream origin master
 		
-					
+Ciclo de atualização do seu código:
+   1º) 				

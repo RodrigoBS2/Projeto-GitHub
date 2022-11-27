@@ -45,7 +45,8 @@ Tópico 2 - Adicionar arquivos ao controle de versão (GitHub):
        - git push --set-upstream origin master
 		
 Tópico 3 - Ciclo de atualização do seu código:
-   1º) Você atualizou seu código e por isso precisar atualizar o seu repositório
+  Usado quando já foi criado um repositório no GitHub com os commits. 
+  1º) Você atualizou seu código e por isso precisar atualizar o seu repositório
        que está no GitHub (na nuvem). Para isso, use os comandos na seguinte ordem:
 
        - git add .
@@ -74,6 +75,12 @@ Tópico 6 - Navegar na Branch e criar uma:
 
    Criando uma branch:
    1º) Use os seguintes comandos na ordem:
-      - git branch <Nome da nova branch>
+      - git branch <Nome da nova branch>: cria uma branch
       - git checkout <Nome da branch>
- 			
+      - Faça modificações na pasta: adicione um arquivo ou edite um que se 
+	encontra lá;
+      - git add .
+      - git commit -m "comentário"
+      - Como é uma nova branch digite o comando: git push --set-upstream origin <nome da branch criada>
+
+      		

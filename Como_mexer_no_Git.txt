@@ -1,7 +1,10 @@
 Inicializando um repositório:
    Caso você nunca tenha criado um repositório então crie uma pasta no 
-   seu computador, com o botão direito do mouse vá em "Git Bash Here"
-   1º) Use o comando "git init" pois irá inicializar um repositório;
+   seu computador, com o botão direito do mouse vá em "Git Bash Here".
+   Será aberto uma linha de comando do Git para você poder navegar por lá.
+
+   1º) Use o comando "git init" pois irá inicializar um repositório na pasta
+       que você criou;
    2º) Comando "git status": verifica se o repositório está ou não atualizado,
 		   	     mostra quais arquivo já foram incluidos no controle
 		   	     de versão e quais ainda não foram, mostra também
@@ -9,13 +12,14 @@ Inicializando um repositório:
 
 Adicionar arquivos ao controle de versão (GitHub): 
    1º) É necessário preparar o arquivo para ser adicionado ao controle 
-       de versão. Use um dos comandos abaixo:
+       de versão. Jogue os arquivo na pasta por onde você ta navegando 
+       no Git e use na linha de comando um dos comandos abaixo:
 
        - git add "Nome do arquivo": prepara o arquivo para ser adicionado
-				  ao controle de versão;
+				    ao controle de versão;
        - git add . : prepara todos os arquivos da pasta para serem adicionados 
-		   ao controle de versão. Usado quando você tem mais de 
-		   um arquivo e quer adicionar todos.
+		     ao controle de versão. Usado quando você tem mais de 
+		     um arquivo e quer adicionar todos.
 
    2º) Crie uma versão (commit) para os arquivos que foram "preparados".
        Use o seguinte comando:
@@ -49,4 +53,11 @@ Ciclo de atualização do seu código:
        - git push
    
 Como verificar histórico de atualizações do seu código:
-   1º)   			
+   1º) Use o comando "git reflog": mostrará uma lista das atualizações
+       e no topo da lista estará a atualização mais recente.
+
+Como navegar entre versões do seu código:
+   Usado caso você precisar voltar a uma versão do seu código por ter cometido 
+   algum erro.
+
+ 			

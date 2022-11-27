@@ -72,6 +72,11 @@ Tópico 6 - Navegar na Branch e criar uma:
    Comandos para navegar nas branchs:
    - git branch: Mostra quais branchs existem e em qual você está (em verde).
    - git checkout <Nome da branch>: vai para a branch que você deseja.   
+   
+   Caso você ja tenha mais de uma branch e só precisa atualizar o repositório de alguma:
+   1º) Use os seguintes comando na ordem:
+      - git checkout <Nome da branch>
+      - Tópico 3 
 
    Criando uma branch:
    1º) Use os seguintes comandos na ordem:
@@ -82,5 +87,6 @@ Tópico 6 - Navegar na Branch e criar uma:
       - git add .
       - git commit -m "comentário"
       - Como é uma nova branch digite o comando: git push --set-upstream origin <nome da branch criada>
+	
 
       		

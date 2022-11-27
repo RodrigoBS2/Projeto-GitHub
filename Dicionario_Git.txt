@@ -1,0 +1,3 @@
+commits : são versões do código
+
+untracked file: arquivos não adicionados ao controle de versão

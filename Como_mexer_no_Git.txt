@@ -39,4 +39,11 @@ Adicionar arquivos ao controle de versão (GitHub):
        - git push --set-upstream origin master
 		
 Ciclo de atualização do seu código:
-   1º) 				
+   1º) Você atualizou seu código e por isso precisar atualizar o seu repositório
+       que está no GitHub (na nuvem). Para isso, use os comandos na seguinte ordem:
+
+       - git add .
+       - git commit -m "Comentário do que foi atualizado"
+       - git push
+   
+  			

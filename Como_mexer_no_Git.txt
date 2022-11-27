@@ -67,5 +67,13 @@ Tópico 5 - Como navegar entre versões do seu código:
    basta fazer a modificação de interesse nos arquivos e fazer o procedimento do 
    tópico 3. 
 	
+Tópico 6 - Navegar na Branch e criar uma:
+   Comandos para navegar nas branchs:
+   - git branch: Mostra quais branchs existem e em qual você está (em verde).
+   - git checkout <Nome da branch>: vai para a branch que você deseja.   
 
+   Criando uma branch:
+   1º) Use os seguintes comandos na ordem:
+      - git branch <Nome da nova branch>
+      - git checkout <Nome da branch>
  			

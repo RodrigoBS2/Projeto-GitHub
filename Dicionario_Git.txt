@@ -1,3 +1,18 @@
-commits : são versões do código
+commits: são versões do código
 
 untracked file: arquivos não adicionados ao controle de versão
+
+Branch: É um local para armazenar o versionamento do seu código. Geralmente
+	é utilizado quando você está trabalhando em equipe onde cada membro 
+	está fazendo uma parte do projeto, criando as seus commits, cada um
+	com a sua branch e, no projeto, existe a branch principal (branch master) 
+	com seus commits sendo atualizados deixando ela estável, com o código
+	funcionando, para no final juntar todas as branchs (os códigos) e unir 
+	para colocar na branch principal e assim completando o projeto da equipe 
+	em um único código, que se encontra na branhc master.
+
+merge: Procedimento no qual você une uma branch, que foi verificada que seu 
+       código está funcionando, na branch principal (branch master)
+
+
+ 
